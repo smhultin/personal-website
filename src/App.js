@@ -1,12 +1,17 @@
-import './css/App.css';
-import Home from './pages/home';
-import TopBar from './components/topbar';
+import './theme/App.css';
+import { About, Home } from './pages';
+import NavBar from './components/navbar';
 
-function App() {
+import { Flex } from 'rebass';
+
+
+const App = () => {
   return (
-    <div className="App">
-      <TopBar/>
-      <Home/>
+    <div className='App'>
+      <NavBar/>
+      <Flex>
+        <About/>
+      </Flex>
     </div>
   );
 };

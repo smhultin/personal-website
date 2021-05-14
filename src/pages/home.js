@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import '../css/App.css';
+import React from 'react';
+import '../theme/App.css';
 
-class Home extends Component {
+import { Text } from 'rebass';
 
-  render() {
+const Home = (props) => {
+
     return (
       <div>
-        <header className='name-header'>sarah<br/>hultin</header>
+        <Text className='header' fontSize={125}>sarah<br/>hultin</Text>
       </div>
     );
-  }
 };
 
 export default Home;
