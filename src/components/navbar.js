@@ -1,7 +1,8 @@
 import React from 'react';
 import '../theme/App.css';
 
-import { Box, Flex, Link } from 'rebass';
+import { Link } from 'react-router-dom';
+import { Box, Flex } from 'rebass';
 
 const NavBar = (props) => {
 
@@ -9,11 +10,11 @@ const NavBar = (props) => {
       <Flex
         padding='30px 0 0 0'
         alignItems='center'>
-        <Link className='nav'>sarah hultin</Link>
+        <Link className='nav-main' to={{ pathname: '/' }}><b>sarah hultin</b></Link>
         <Box mx='auto' />
-        <Link className='nav' padding='0 30px 0 0' href='www.google.com'>about</Link>
-        <Link className='nav' padding='0 30px 0 0' href='#!'>gallery</Link>
-        <Link className='nav' href='#!'>projects</Link>
+        <Link className='nav' to={{ pathname: '/about' }}>about</Link>
+        <Link className='nav' to={{ pathname: '#!' }}>gallery</Link>
+        <Link className='nav' to={{ pathname: '#!'}}>projects</Link>
       </Flex>
     );
 }

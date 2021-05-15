@@ -2,17 +2,21 @@ import './theme/App.css';
 import { About, Home } from './pages';
 import NavBar from './components/navbar';
 
+import { HashRouter, Route } from 'react-router-dom';
 import { Flex } from 'rebass';
 
 
 const App = () => {
   return (
-    <div className='App'>
-      <NavBar/>
-      <Flex>
-        <About/>
-      </Flex>
-    </div>
+    <HashRouter>
+      <div className='App'>
+        <NavBar/>
+        <Flex>
+          <Route exact path='/' component={ Home } />
+          <Route exact path='/about' component={ About } />
+        </Flex>
+      </div>
+    </HashRouter>
   );
 };
 

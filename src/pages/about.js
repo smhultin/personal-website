@@ -8,11 +8,11 @@ const About = (props) =>  {
 
     return (
       <div>
-        <Text className='header' fontSize={75}>about me</Text>
+        <Text className='page-header'>about me</Text>
         <Text>description</Text>
 
         <div>
-          <Text className='header' fontSize={50}>timeline</Text>
+          <Text className='page-header'>timeline</Text>
           <div className='time-container'>
             <TimeEntry
               title='Software Engineer @ Disney'
