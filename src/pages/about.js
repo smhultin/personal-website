@@ -15,17 +15,29 @@ const About = (props) =>  {
           <Text className='page-header'>timeline</Text>
           <div className='time-container'>
             <TimeEntry
-              title='Software Engineer @ Disney'
+              title='Software Engineer at Disney'
               location='seattle'
               start='aug 2020'
               end='now'
               description='I code for the big mouse' />
             <TimeEntry
-              title='Comp Sci & Math Undergrad @ Colorado State'
+              title='Undergrad at Colorado State University'
               location='fort collins'
               start='aug 2016'
               end='may 2020'
               description='boy howdy did i love school' />
+            <TimeEntry
+              title='Intern at Northrop Grumman'
+              location='aurora & boulder'
+              start='may 2018'
+              end='aug 2019'
+              description='4 hour drives sucked' />
+            <TimeEntry
+              title='High School'
+              location='folsom'
+              start='aug 2012'
+              end='may 2016'
+              description='code?? dont know her' />
           </div>
         </div>
       </div>

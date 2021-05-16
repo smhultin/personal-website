@@ -16,7 +16,7 @@
   font-family: "Courier New";
   max-width: 856px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 48px;
 }
 
 .page-header {
@@ -28,7 +28,7 @@
 .nav {
   color: var(--black);
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 24px;
 }
 .nav-main {
   color: var(--black);
@@ -41,21 +41,7 @@
 
 .time-container {
   position: relative;
-  margin-bottom: 30px; }
-
-.time-container:before, .time-container:after {
-  content: " ";
-  display: table; }
-
-.time-container:after {
-  clear: both; }
-
-.time-container:before, .time-container:after {
-  content: " ";
-  display: table; }
-
-.time-container:after {
-  clear: both; }
+}
 
 .time-container:before {
   content: '';
@@ -64,12 +50,12 @@
   width: 4px;
   background: var(--blue1);
   top: 20px;
-  bottom: 20px;
+  bottom: 0;
   margin-left: 29px; }
 
 .time-container .time-entry {
   position: relative;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-left: 30px;
   margin-bottom: 10px;
   clear: both; }
@@ -83,9 +69,6 @@
   width: 40px;
   height: 40px;
   background: var(--blue1);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
   -moz-box-shadow: 0 0 0 5px var(--blue1);
@@ -94,7 +77,7 @@
   line-height: 40px;
   float: left; }
 .time-container .time-entry .time-entry-inner .time-icon i {
-  color: #fff; }
+  color: var(--pink1); }
 .time-container .time-entry .time-entry-inner .time-icon.color-2 {
   background: var(--pink1); }
 .time-container .time-entry .time-entry-inner .time-icon.color-3 {
