@@ -1,5 +1,5 @@
 import './theme/App.css';
-import { About, Home } from './pages';
+import { About, Gallery, Home } from './pages';
 import NavBar from './components/navbar';
 
 import { HashRouter, Route } from 'react-router-dom';
@@ -14,6 +14,7 @@ const App = () => {
         <Flex>
           <Route exact path='/' component={ Home } />
           <Route exact path='/about' component={ About } />
+          <Route exact path='/gallery' component={ Gallery } />
         </Flex>
       </div>
     </HashRouter>

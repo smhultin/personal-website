@@ -13,7 +13,7 @@ const TimeEntry = (props) => {
     <div className='time-entry'>
       <div className='time-entry-inner'>
         <div className='time-icon color-4'>
-          <FontAwesomeIcon icon={ faHeart } color='white' />
+          <FontAwesomeIcon icon={ faHeart } />
         </div>
         <div className='time-label'>
           <h2>{ title } <span>{ location } | { start } to { end }</span></h2>

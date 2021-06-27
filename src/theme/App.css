@@ -3,6 +3,7 @@
   --pink2: #FABDD8;
   --pink3: #FAA8CC;
   --mint: #A0EADB;
+  --bluewhite: #F4FDFF;
   --blue1: #E5FAFF;
   --blue2: #DBF6FF;
   --blue3: #CFF4FD;
@@ -13,10 +14,18 @@
 
 .App {
   text-align: left;
-  font-family: "Courier New";
+  font-family: 'Courier New';
   max-width: 856px;
   margin: 0 auto;
   padding: 0 48px;
+}
+
+body{
+  background-color: var(--bluewhite);
+  background-image: url('../resources/photos/cloud.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 
 .page-header {
@@ -76,7 +85,7 @@
   box-shadow: 0 0 0 5px var(--blue1);
   line-height: 40px;
   float: left; }
-.time-container .time-entry .time-entry-inner .time-icon i {
+.time-container .time-entry .time-entry-inner .time-icon FontAwesomeIcon {
   color: var(--pink1); }
 .time-container .time-entry .time-entry-inner .time-icon.color-2 {
   background: var(--pink1); }

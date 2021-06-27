@@ -1,0 +1,33 @@
+{
+  "description": "who am i",
+  "timeline": [
+    {
+      "title": "software engineer",
+      "location": "seattle",
+      "start": "aug 2020",
+      "end": "now",
+      "description": "I code for the big mouse"
+    },
+    {
+      "title": "undergrad",
+      "location": "fort collins",
+      "start": "aug 2016",
+      "end": "may 2020",
+      "description": "go rams"
+    },
+    {
+      "title": "intern",
+      "location": "aurora & boulder",
+      "start": "may 2018",
+      "end": "aug 2019",
+      "description": "super duper secret classified work"
+    },
+    {
+      "title": "high school",
+      "location": "el dorado hills",
+      "start": "aug 2012",
+      "end": "may 2016",
+      "description": "code?? didnt know her"
+    }
+  ]
+}

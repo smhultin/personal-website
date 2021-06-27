@@ -13,7 +13,7 @@ const NavBar = (props) => {
         <Link className='nav-main' to={{ pathname: '/' }}><b>sarah hultin</b></Link>
         <Box mx='auto' />
         <Link className='nav' to={{ pathname: '/about' }}>about</Link>
-        <Link className='nav' to={{ pathname: '#!' }}>gallery</Link>
+        <Link className='nav' to={{ pathname: '/gallery' }}>gallery</Link>
         <Link className='nav' to={{ pathname: '#!'}}>projects</Link>
       </Flex>
     );
