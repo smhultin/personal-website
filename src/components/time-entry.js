@@ -3,7 +3,6 @@ import '../theme/App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { Box, Text } from 'rebass';
 
 const TimeEntry = (props) => {
 
@@ -12,8 +11,8 @@ const TimeEntry = (props) => {
   return (
     <div className='time-entry'>
       <div className='time-entry-inner'>
-        <div className='time-icon color-4'>
-          <FontAwesomeIcon icon={ faHeart } />
+        <div className='time-icon'>
+          <FontAwesomeIcon icon={ faHeart }/>
         </div>
         <div className='time-label'>
           <h2>{ title } <span>{ location } | { start } to { end }</span></h2>

@@ -1,15 +1,21 @@
 import React from 'react';
 import '../theme/App.css';
 
-import { Text } from 'rebass';
+import cutie from '../resources/photos/yeehaw-snorlax.png';
+
+import { Box, Flex, Image, Text } from 'rebass';
 
 const Home = (props) => {
 
     return (
-      <div>
-        <Text className='header' fontSize={125}>sarah<br/>hultin</Text>
-        <div class='cloud'></div>
-      </div>
+      <Flex>
+        <Box p={3}>
+          <Text className='header' fontSize={125}>sarah<br/>hultin</Text>
+        </Box>
+        <Box p={3}>
+          <Image className='joe' src={cutie} sx={{ height: '250px' }} />
+        </Box>
+      </Flex>
     );
 };
 

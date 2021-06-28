@@ -1,39 +1,29 @@
 {
   "description": "i like to sew a whole lot",
-  "years": [
+  "2021": [
     {
-      "2021": [
-        {
-          "title": "mei inspired dress",
-          "leadPhoto": "",
-          "photos": []
-        },
-        {
-          "title": "ponyo inspired dress",
-          "leadPhoto": "",
-          "photos": []
-        },
-        {
-          "title": "naoko inspired dress",
-          "leadPhoto": "",
-          "photos": []
-        }
-      ]
+      "title": "mei inspired dress",
+      "leadPhoto": "",
+      "photos": []
     },
     {
-      "2020": []
+      "title": "ponyo inspired dress",
+      "leadPhoto": "",
+      "photos": []
     },
     {
-      "2019": []
-    },
+      "title": "naoko inspired dress",
+      "leadPhoto": "",
+      "photos": []
+    }
+  ],
+  "2020": [],
+  "2019": [],
+  "2018": [
     {
-      "2018": [
-        {
-          "title": "bee (s1e5) cosplay",
-          "leadPhoto": "./photos/gallery/bee-lead.JPG",
-          "photos": []
-        }
-      ]
+      "title": "bee (s1e5) cosplay",
+      "leadPhoto": "./photos/gallery/bee-lead.JPG",
+      "photos": []
     }
   ]
 }

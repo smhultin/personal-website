@@ -56,11 +56,11 @@ body{
   content: '';
   position: absolute;
   display: block;
-  width: 4px;
-  background: var(--blue1);
+  width: 2.5px;
+  background: var(--pink1);
   top: 20px;
   bottom: 0;
-  margin-left: 29px; }
+  margin-left: 23px; }
 
 .time-container .time-entry {
   position: relative;
@@ -75,26 +75,15 @@ body{
 
 .time-container .time-entry .time-entry-inner .time-icon {
   display: block;
-  width: 40px;
-  height: 40px;
-  background: var(--blue1);
+  width: 30px;
+  height: 30px;
+  background: var(--pink2);
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px var(--blue1);
-  -webkit-box-shadow: 0 0 0 5px var(--blue1);
-  box-shadow: 0 0 0 5px var(--blue1);
-  line-height: 40px;
+  box-shadow: 0 0 0 5px var(--pink2);
+  color: white;
+  line-height: 35px;
   float: left; }
-.time-container .time-entry .time-entry-inner .time-icon FontAwesomeIcon {
-  color: var(--pink1); }
-.time-container .time-entry .time-entry-inner .time-icon.color-2 {
-  background: var(--pink1); }
-.time-container .time-entry .time-entry-inner .time-icon.color-3 {
-  background: var(--mint); }
-.time-container .time-entry .time-entry-inner .time-icon.color-4 {
-  background: var(--blue3); }
-.time-container .time-entry .time-entry-inner .time-icon.color-5 {
-  background: var(--purple); }
 .time-container .time-entry .time-entry-inner .time-icon.color-none {
   background: #fff;
   width: 20px;
@@ -103,7 +92,7 @@ body{
 
 .time-container .time-entry .time-entry-inner .time-label {
   position: relative;
-  background: var(--blue1);
+  background: white;
   padding: .5em 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -118,7 +107,7 @@ body{
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent var(--blue1) transparent transparent;
+  border-color: transparent white transparent transparent;
   left: 0;
   top: 0px;
   margin-left: -9px; }
@@ -140,3 +129,12 @@ body{
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
   font-size: 16px; }
+
+.gallery-card {
+  position: relative;
+  background: var(--pink1);
+}
+
+.joe {
+  opacity: 1;
+}
