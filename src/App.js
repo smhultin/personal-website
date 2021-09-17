@@ -1,6 +1,6 @@
 import './theme/App.css';
-import { About, Gallery, Home } from './pages';
-import NavBar from './components/navbar';
+import { About, Friends, Projects, Home } from './pages';
+import { Footer, NavBar } from './components';
 
 import { HashRouter, Route } from 'react-router-dom';
 import { Flex } from 'rebass';
@@ -14,8 +14,10 @@ const App = () => {
         <Flex>
           <Route exact path='/' component={ Home } />
           <Route exact path='/about' component={ About } />
-          <Route exact path='/gallery' component={ Gallery } />
+          <Route exact path='/projects' component={ Projects } />
+          <Route exact path='/friends' component={ Friends } />
         </Flex>
+        <Footer/>
       </div>
     </HashRouter>
   );
